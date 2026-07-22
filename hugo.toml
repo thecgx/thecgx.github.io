@@ -3,6 +3,9 @@ locale = "zh-CN"
 title = "thecgx"
 theme = "PaperMod"
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [params]
   defaultTheme = "auto"
   ShowReadingTime = true
@@ -47,3 +50,9 @@ theme = "PaperMod"
     name = "标签"
     url = "/tags/"
     weight = 60
+
+  [[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 70

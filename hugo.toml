@@ -13,13 +13,37 @@ theme = "PaperMod"
 [menu]
 
   [[menu.main]]
+    identifier = "investment"
+    name = "投资"
+    url = "/investment/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "reading"
+    name = "阅读"
+    url = "/reading/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "thinking"
+    name = "思考"
+    url = "/thinking/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "miscellany"
+    name = "杂记"
+    url = "/miscellany/"
+    weight = 40
+
+  [[menu.main]]
     identifier = "archives"
     name = "归档"
     url = "/archives/"
-    weight = 10
+    weight = 50
 
   [[menu.main]]
     identifier = "tags"
     name = "标签"
     url = "/tags/"
-    weight = 20
+    weight = 60

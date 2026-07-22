@@ -12,6 +12,7 @@ theme = "PaperMod"
   ShowShareButtons = false
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
+  mainSections = ["investment", "reading", "thinking", "miscellany"]
 
 [menu]
 

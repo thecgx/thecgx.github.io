@@ -1,10 +1,10 @@
 ---
 created: 2026-07-11T23:59
-updated: 2026-07-21T23:05
+updated: 2026-07-23T10:58
 date: 2026-07-21
 title: 人类与AI之间的委托代理问题
 tags:
-  - 随笔
+  - AI
 draft: "false"
 ---
 

@@ -1,6 +1,6 @@
 baseURL = "https://thecgx.com/"
 locale = "zh-CN"
-title = "thecgx"
+title = "CgX"
 theme = "PaperMod"
 
 [outputs]
@@ -12,44 +12,46 @@ theme = "PaperMod"
   ShowShareButtons = false
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
-  mainSections = ["investment", "reading", "thinking", "miscellany"]
+  ShowRelated = true
+  ShowSectionCount = true
+  mainSections = ["reading", "thinking", "investment", "miscellany"]
 
 [menu]
-
-  [[menu.main]]
-    identifier = "investment"
-    name = "投资"
-    url = "/investment/"
-    weight = 10
 
   [[menu.main]]
     identifier = "reading"
     name = "阅读"
     url = "/reading/"
-    weight = 20
+    weight = 10
 
   [[menu.main]]
     identifier = "thinking"
     name = "思考"
     url = "/thinking/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "investment"
+    name = "投资"
+    url = "/investment/"
     weight = 30
 
   [[menu.main]]
     identifier = "miscellany"
-    name = "杂记"
+    name = "其他"
     url = "/miscellany/"
     weight = 40
-
-  [[menu.main]]
-    identifier = "archives"
-    name = "归档"
-    url = "/archives/"
-    weight = 50
 
   [[menu.main]]
     identifier = "tags"
     name = "标签"
     url = "/tags/"
+    weight = 50
+
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
     weight = 60
 
   [[menu.main]]

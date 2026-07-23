@@ -15,6 +15,9 @@ theme = "PaperMod"
   ShowSectionCount = true
   mainSections = ["reading", "thinking", "investment", "miscellany"]
 
+[params.footer]
+  text = "*Memento mori. Explora et Experire！*"
+
 [menu]
 
   [[menu.main]]

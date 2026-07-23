@@ -15,9 +15,14 @@
     display: none;
 }
 
-/* Logo CgX 调大字号 + 斜体 */
+/* Logo theCgX 斜体 + 加粗 */
 .logo a {
     font-size: 1.5rem;
     font-weight: 600;
     font-style: italic;
+}
+
+/* Footer 各段间距拉大 */
+.footer span {
+    margin: 0 0.35rem;
 }
